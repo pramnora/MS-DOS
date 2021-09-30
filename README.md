@@ -73,21 +73,50 @@ How to pause an MS DOS file output...
 
 >>PAUSE  
 
-How to introduce a blank line inside of MS DOS File output...
+## Creating some simple [.bat] file programs...   
+
+### Creating output files... 
+
+1> How to introduce a blank line inside of MS DOS File output...
 
 >>ECHO.
 
-Example...
+Example code...
 
 >>@ECHO OFF   
->>ECHO This is a line   
+>>ECHO This is a line of text...  
 >>ECHO.  
->>ECHO of text with a vertical line space in between.  
+>>ECHO ...with a vertical line space shown in between.  
 >>PAUSE  
 
+...save the above file as being called: [new-line.bat]
+
 -(**NOTE**: '@ECHO OFF', is usually the first command of any dos [.bat] file;  
-and, what it does is to suppress each MS DOS command from being 'echoed' to the output screen.  
-For example, try running the above code without the line @ECHO OFF...; then, watch what the program does.)-     
+and, what it does is to suppress each MS DOS command from being 'echoed' onto the output screen.   
+For example, try running the above code without the line @ECHO OFF...; then, observe what is the output...?)-    
+
+### How to interlink [.bat] files together...
+
+MS DOS [bat.] files can also be interlinked with one another...;  
+by running one after the next...simply, by calling the next file by its name.    
+   
+Example code...
+
+>>@ECHO OFF  
+>>ECHO This is file number 1  
+>>PAUSE  
+>>file2.bat  
+
+...save the above file as being called: [file1.bat]    
+
+>>@ECHO OFF  
+>>ECHO This is file number 2  
+>>PAUSE  
+
+...save the above file as being called: [file2.bat]   
+
+
+
 
 
 
