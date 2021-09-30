@@ -79,12 +79,15 @@ How to introduce a blank line inside of MS DOS File output...
 
 Example...
 
->>@ECHO OFF 
+>>@ECHO OFF   
 >>ECHO This is a line   
 >>ECHO.  
 >>ECHO of text with a vertical line space in between.  
 >>PAUSE  
 
+-(**NOTE**: '@ECHO OFF', is usually the first command of any dos [.bat] file;  
+and, what it does is to suppress each MS DOS command from being 'echoed' to the output screen.  
+For example, try running the above code without the line @ECHO OFF...; then, watch what the program does.)-     
 
 
 
