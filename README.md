@@ -33,10 +33,10 @@ MS DOS commands are either...
 
 - Go and find the file you just saved...; and, 'left double click' to run...;  
 - A black background window should, suddenly, appear...which is the MS DOS CLI/Command Line Interface...  
-  which is now ready and waiting for your to type commands into.  
+  which is now ready and waiting for you to type commands into.  
 
-**NOTE**: MS DOS batch [.bat] files are quite easily distinguisable from other file icon types;    
-          because have a picture icon of 2 cog wheels sitting on top of a white backround.    
+**NOTE**: MS DOS batch [.bat] files are quite easily distinguisable from other file picture icon types;    
+          because they have a picture icon of '2 cog wheels' sitting on top of a white backround.    
 
 ## Some example MS DOS Commands...
 
