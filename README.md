@@ -3,8 +3,15 @@ MS DOS/Microsoft Disk Operating System
 
 ## MS DOS, Batch [.bat] file programming...
 
-MS DOS, uses batch files to run commands...;  
-these commands are typed into the MS DOS Command Prompt window.   
+MS DOS, uses batch files to run commands...; and, these commands are either...  
+
+- typed into the MS DOS Command Prompt window    
+ 
+- stored inside of a plain text file using file name extension: [.bat];   
+  which is also referred to being called a Windows 'batch' program file...;    
+  as it stores a list -or, batch- of MS DOS commands which you can run/execute.  
+
+## How to create a batch [.bat] file...  
 
 - Open Windows Notepad word processor application/  
   (do a combination keypress: [Window Picture Icon] + [R]    
@@ -15,6 +22,7 @@ these commands are typed into the MS DOS Command Prompt window.
 - Type into the Notepad window the following list of commands...  
 
 >>@ECHO OFF  
+>>REM ** Open up a DOS Command Prompt window...  
 >>CMD  
 
 - Use Notepad File menu to Save the file as being called:  
@@ -28,15 +36,25 @@ these commands are typed into the MS DOS Command Prompt window.
 
 ## Some example MS DOS Commands...
 
+Display which MS DOS Version you are, currently, using...  
+
+>>C:>VER  
+
+Show/change time...  
+(press [ENTER] key, twice...in order to leave the time unchanged)      
+
+>>C:>TIME  
+
+Show/change date...  
+(press [ENTER] key, twice...in order to leave the date unchanged)      
+
+>>C:>DATE  
+
 List the current directory folder/files...  
 
 >>C:>DIR  
 
-Show time...  
+**NOTE**: If you need help concerning an MS DOS command...; then, type...  
 
->>C:>TIME  
-
-Show date...  
-
->>C:>DATE  
+>>C:>DIR /?  
 
