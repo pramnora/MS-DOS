@@ -3,9 +3,12 @@ MS DOS/Microsoft Disk Operating System
 
 ## MS DOS, Batch [.bat] file programming...
 
-MS DOS, uses batch files to run commands...; and, these commands are either...  
+MS DOS, is a CLI/Command Line Interface...that is all text based...;  
+meaning, you have to type in each command.  
 
-- typed into the MS DOS Command Prompt window    
+MS DOS commands are either...  
+
+- typed into the MS DOS Command Prompt window, individually, one command at a time      
  
 - stored inside of a plain text file using file name extension: [.bat];   
   which is also referred to being called a Windows 'batch' program file...;    
@@ -58,3 +61,35 @@ List the current directory folder/files...
 
 >>C:>DIR /?  
 
+Write text to the output screen...  
+
+>>C:>ECHO Hello, world!  
+
+Write an MS DOS style code comment...
+
+>>C:>REM This is a MS DOS REMark...used to comment your code...  
+
+How to pause an MS DOS file output...  
+
+>>PAUSE  
+
+How to introduce a blank line inside of MS DOS File output...
+
+>>ECHO.
+
+Example...
+
+>>@ECHO OFF 
+>>ECHO This is a line   
+>>ECHO.  
+>>ECHO of text with a vertical line space in between.  
+>>PAUSE  
+
+
+
+
+
+
+
+
+  
