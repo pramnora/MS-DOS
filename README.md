@@ -95,7 +95,7 @@ Example code...
 and, what it does is to suppress each MS DOS command from being 'echoed' onto the output screen.   
 For example, try running the above code without the line @ECHO OFF...; then, observe what is the output...?)-    
 
-### How to interlink [.bat] files together...
+### How to interlink [.bat] files so they can be run together...  
 
 MS DOS [bat.] files can also be interlinked with one another...;  
 by running one after the next...simply, by calling the next file by its name.    
@@ -115,8 +115,9 @@ Example code...
 
 ...save the above file as being called: [file2.bat]   
 
-
-
+Make sure to store each file together inside of the one same directory folder;    
+then, left double click on [file1.bat] to run.    
+  
 
 
 
