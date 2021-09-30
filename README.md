@@ -71,7 +71,8 @@ List the current directory folder/files...
 
 >>C:>DIR /?  
 
-...and, this will show you what are the commands other options.  
+...and, this will explain exactly what the command does/or, is used for...;   
+and, also, show you what are the command's other options/(if any).   
 
 Write text to the output screen...  
 
