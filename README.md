@@ -80,6 +80,10 @@ How to pause an MS DOS file output...
 
 >>PAUSE  
 
+The pause statement will pause the output...;  
+and, at the same time, display the following message:   
+'Press any key to continue...'  
+
 Sometimes, the MS DOS output screen becomes extremely cluttered;  
 the way to clear it is to use the (CL)ear (S)creen statement...  
 
