@@ -60,8 +60,14 @@ Show/change date...
 List the current directory folder/files...  
 
 >>C:>DIR  
+>>C:>DIR /W  (shows a wide folder directory listing)   
+>>C:>DIR /B  (shows a brief folder directory listing)   
 
-**NOTE**: If you need help concerning an MS DOS command...; then, type...  
+**NOTE**: If you need help concerning an MS DOS command...;   
+          then, after the command typing: (/?)...   
+          ...will display further help on how to use it;   
+          some commands have multiple different variations on how it can be used.     
+         
 
 >>C:>DIR /?  
 
