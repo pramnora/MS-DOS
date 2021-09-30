@@ -62,6 +62,8 @@ List the current directory folder/files...
 
 >>C:>DIR /?  
 
+...and, this will show you what are the commands other options.  
+
 Write text to the output screen...  
 
 >>C:>ECHO Hello, world!  
