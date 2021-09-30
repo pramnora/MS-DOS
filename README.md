@@ -40,6 +40,9 @@ MS DOS commands are either...
 
 ## Some example MS DOS Commands...
 
+There are, literally, hundreds of MS DOS commands...;  
+so, the very selection being shown here is really very small.  
+
 Display which MS DOS Version you are, currently, using...  
 
 >>C:>VER  
