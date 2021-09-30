@@ -16,11 +16,11 @@ MS DOS commands are either...
 
 ## How to create a batch [.bat] file...  
 
-- Open Windows Notepad word processor application/  
-  (do a combination keypress: [Window Picture Icon] + [R]    
-    ..should open the Run dialog box; type in there...  
-    Notepad  
-    ...will open a new Notepad window; ready for type code into.)  
+- Open Windows Notepad word processor application/   
+  (right click an 'empty' space on your computer desktop...;   
+   and, a drop down menu list of options should appear, choose...;     
+   New > Text Document   
+    ...will open a new Notepad window; ready for typing text/code into.)  
     
 - Type into the Notepad window the following list of commands...  
 
