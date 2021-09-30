@@ -72,6 +72,10 @@ Write an MS DOS style code comment...
 
 >>C:>REM This is a MS DOS REMark...used to comment your code...  
 
+-(**NOTE**: REM statements are NOT 'executable code'; and, therefore, will quite simply be 'ignored';    
+          instead, they are merely placed there to explain to readers of the program 'source code'...;    
+          exactly what that program is meant to be doing.)-    
+
 How to pause an MS DOS file output...  
 
 >>PAUSE  
