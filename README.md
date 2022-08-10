@@ -144,6 +144,13 @@ Example code...
 Make sure to store each file together inside of the one same directory folder;    
 then, left double click on [file1.bat] to run.    
 
+### HOW TO READ BUILT IN VARIABLES  
+
+> ECHO %USERNAME%  
+> ECHO %USERPROFILE%  
+
+NOTE: This is how you would display %varNAME% when writing it at the command prompt.  
+In order to display the same name within a MS DOS batch [.bat] program file use, instead: %%varNAME%%  
 
 ### HOW TO SET VARIABLES  
 
@@ -156,9 +163,9 @@ NOTES:-
 NOTE(1): The temp variable will only last for so long as the MS DOS Command Window still remains open;  
 but, once you've closed that windows down; and, open up another MS DOS Command Window...the variable value is lost.  
 
-NOTE(2): There should be no spaces in between the equal; (=) sign.  
+NOTE(2): There should be no spaces in between the equal: (=) sign...and VarNAME/varVALUE  
 
-NOTE(3): YOu do not need to put your text in between quote marks.  
+NOTE(3): You don't need to put your text in between quote marks.  
 
 -----
 
