@@ -121,7 +121,24 @@ Example code...
 and, what it does is to suppress each MS DOS command from being 'echoed' onto the output screen.   
 For example, try running the above code without the line @ECHO OFF...; then, observe what is the output...?)-    
 
-### How to interlink [.bat] files so they can be run together...  
+### How to interlink separate [.bat] screens so they can be run together...  
+
+MS DOS [bat.] files can also be interlinked with one another...;  
+by running one after the next...simply, by calling the next file by its name.    
+   
+Example code...
+
+>>@ECHO OFF  
+>>CLS  
+>>ECHO This is screen number 1  
+>>PAUSE  
+>>CLS  
+>>ECHO This is screen number 2  
+>>PAUSE  
+
+...save the above file as being called: [screens2.bat]; then, left double click the saved file to make it run/execute.     
+
+### How to interlink separate [.bat] files so they can be run together...  
 
 MS DOS [bat.] files can also be interlinked with one another...;  
 by running one after the next...simply, by calling the next file by its name.    
@@ -145,6 +162,8 @@ Make sure to store each file together inside of the one same directory folder;
 then, left double click on [file1.bat] to run.    
 
 ### HOW TO READ BUILT IN VARIABLES  
+
+MS DOS comes with a number of built-in variables...; here, I'm listing just a few of these(so there's lots more to go and discover using):       
 
 > ECHO %USERNAME%  
 > ECHO %USERPROFILE%  
