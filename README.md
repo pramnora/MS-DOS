@@ -161,7 +161,7 @@ Example code...
 Make sure to store each file together inside of the one same directory folder;    
 then, left double click on [file1.bat] to run.    
 
-### HOW TO READ BUILT IN VARIABLES  
+## HOW TO READ BUILT IN VARIABLES  
 
 MS DOS comes with a number of built-in variables...; here, I'm listing just a few of these(so there's lots more to go and discover using):       
 
