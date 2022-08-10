@@ -179,7 +179,7 @@ In order to display the same name within a MS DOS batch [.bat] program file use,
 
 NOTES:-  
 
-NOTE(1): The temp variable will only last for so long as the MS DOS Command Window still remains open;  
+NOTE(1): The temp variable will only last for so long as the MS DOS Command Window still remains open...;  
 but, once you've closed that windows down; and, open up another MS DOS Command Window...the variable value is lost.  
 
 NOTE(2): There should be no spaces in between the equal: (=) sign...and VarNAME/varVALUE  
@@ -188,6 +188,8 @@ NOTE(3): You don't need to put your text in between quote marks.
 
 NOTE(4): It is a really good idea to check if a variable already exists...by echoing out it's name/value, first;   
 before attempting to create/then, use it; this is because it's possible to 'overwrite' a variableName/variable Value.  
+
+NOTE(5): MS DOS is NOT 'case senstive'...; so, varName/varNAME/and, VARNAME...do all refer to the same variableName/variableVALUE.    
 
 -----
 
