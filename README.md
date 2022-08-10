@@ -187,7 +187,7 @@ NOTE(2): There should be no spaces in between the equal: (=) sign...and VarNAME/
 NOTE(3): You don't need to put your text in between quote marks.  
 
 NOTE(4): It is a really good idea to check if a variable already exists...by echoing out it's name/value, first;   
-before attempting to create/then, use it; this is because it's possible to 'overwrite' a variableName/variable Value.  
+before attempting to go create/then, use it; this is because it's possible to 'overwrite' a variableName/variable Value.  
 
 NOTE(5): MS DOS is NOT 'case senstive'...; so, varName/varNAME/and, VARNAME...do all refer to the same variableName/variableVALUE.    
 
