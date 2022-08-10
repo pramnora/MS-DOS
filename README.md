@@ -171,7 +171,7 @@ MS DOS comes with a number of built-in variables...; here, I'm listing just a fe
 NOTE: This is how you would display %varNAME% when writing it at the command prompt.  
 In order to display the same name within a MS DOS batch [.bat] program file use, instead: %%varNAME%%  
 
-### HOW TO SET VARIABLES  
+### HOW TO SET YOUR OWN VARIABLES  
 
 > SET tempVar=This is a test message.  
 > ECHO %tempVar%   
