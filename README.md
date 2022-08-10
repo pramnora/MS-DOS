@@ -121,7 +121,7 @@ Example code...
 and, what it does is to suppress each MS DOS command from being 'echoed' onto the output screen.   
 For example, try running the above code without the line @ECHO OFF...; then, observe what is the output...?)-    
 
-### How to interlink separate [.bat] screens so they can be run together...  
+### How to interlink separate screen fulls of text...inside of one same [.bat] file    
 
 MS DOS [bat.] files can also be interlinked with one another...;  
 by running one after the next...simply, by calling the next file by its name.    
