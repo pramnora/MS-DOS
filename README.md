@@ -143,7 +143,29 @@ Example code...
 
 Make sure to store each file together inside of the one same directory folder;    
 then, left double click on [file1.bat] to run.    
-  
+
+
+### HOW TO SET VARIABLES  
+
+> SET tempVar=This is a test message.  
+> ECHO %tempVar%   
+> This is a test message.  
+
+NOTES:-  
+
+NOTE(1): The temp variable will only last for so long as the MS DOS Command Window still remains open;  
+but, once you've closed that windows down; and, open up another MS DOS Command Window...the variable value is lost.  
+
+NOTE(2): There should be no spaces in between the equal; (=) sign.  
+
+NOTE(3): YOu do not need to put your text in between quote marks.  
+
+-----
+
+### LINKS
+
+
+ 
 
 
 
