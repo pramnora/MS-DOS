@@ -121,7 +121,7 @@ Example code...
 and, what it does is to suppress each MS DOS command from being 'echoed' onto the output screen.   
 For example, try running the above code without the line @ECHO OFF...; then, observe what is the output...?)-    
 
-### How to interlink separate screen fulls of text...inside of one same [.bat] file    
+## How to interlink separate screen fulls of text...inside of one same [.bat] file    
 
 MS DOS [bat.] files can also be interlinked with one another...;  
 by running one after the next...simply, by calling the next file by its name.    
@@ -138,7 +138,7 @@ Example code...
 
 ...save the above file as being called: [screens2.bat]; then, left double click the saved file to make it run/execute.     
 
-### How to interlink separate [.bat] files so they can be run together...  
+## How to interlink separate [.bat] files so they can be run together...  
 
 MS DOS [bat.] files can also be interlinked with one another...;  
 by running one after the next...simply, by calling the next file by its name.    
@@ -171,7 +171,7 @@ MS DOS comes with a number of built-in variables...; here, I'm listing just a fe
 NOTE: This is how you would display %varNAME% when writing it at the command prompt.  
 In order to display the same name within a MS DOS batch [.bat] program file use, instead: %%varNAME%%  
 
-### HOW TO SET YOUR OWN VARIABLES  
+## HOW TO SET YOUR OWN VARIABLES  
 
 > SET tempVar=This is a test message.  
 > ECHO %tempVar%   
@@ -188,7 +188,7 @@ NOTE(3): You don't need to put your text in between quote marks.
 
 -----
 
-### LINKS
+## LINKS
 
 
  
