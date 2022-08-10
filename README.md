@@ -161,7 +161,7 @@ Example code...
 Make sure to store each file together inside of the one same directory folder;    
 then, left double click on [file1.bat] to run.    
 
-## HOW TO READ BUILT IN VARIABLES  
+## How to read built-in variables
 
 MS DOS comes with a number of built-in variables...; here, I'm listing just a few of these(so there's lots more to go and discover using):       
 
@@ -171,7 +171,7 @@ MS DOS comes with a number of built-in variables...; here, I'm listing just a fe
 NOTE: This is how you would display %varNAME% when writing it at the command prompt.  
 In order to display the same name within a MS DOS batch [.bat] program file use, instead: %%varNAME%%  
 
-## HOW TO SET YOUR OWN VARIABLES  
+## How to set your own variables
 
 > SET tempVar=This is a test message.  
 > ECHO %tempVar%   
