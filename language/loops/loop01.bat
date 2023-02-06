@@ -4,8 +4,6 @@ REM Output...
 REM 1
 REM 2
 REM 3
-
------
-
-NOTE: When you are writing the loop variable to be used inside of the command line window: %N;  
-but, if you are writing the loop variable to be used inside of a file; then, use: %%N.
+REM -----
+REM NOTE: When you are writing the loop variable to be used inside of the command line window: %N;  
+REM but, if you are writing the loop variable to be used inside of a file; then, use: %%N.
