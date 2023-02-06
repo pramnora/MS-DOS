@@ -7,7 +7,5 @@ REM 3
 
 -----
 
-NOTE: When you are writing the loop inside of the command line window;  
-then, use %N...;
-but, if you are writing the loop variable inside of a file...
-then, use %%N.
+NOTE: When you are writing the loop variable to be used inside of the command line window: %N;  
+but, if you are writing the loop variable to be used inside of a file; then, use: %%N.
