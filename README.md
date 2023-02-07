@@ -193,6 +193,18 @@ NOTE(5): MS DOS is NOT 'case senstive'...; so, varName/varNAME/and, VARNAME...do
 
 -----
 
+## Looping
+
+To print out literals...
+
+>>FOR %%N IN (1,2,3) DO ECHO %%N    
+>>...output...  
+>>1  
+>>2  
+>>3  
+
+-----
+
 ## LINKS
 
 
