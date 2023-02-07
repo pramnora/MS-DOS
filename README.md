@@ -231,8 +231,8 @@ The parameters mean: (start,step,end)
 >>2  
 >>1    
 
-**NOTE**: When writing code inside of the MS DOS Command line window use variable: %N;  
-however, when writing code inside of files using variable: %%N.  
+**NOTE**: When writing code inside of the MS DOS Command line window use variable format: %N;  
+however, when writing code inside of files...instead, use variable format: %%N.  
 
 -----
 
