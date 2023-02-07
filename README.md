@@ -267,6 +267,17 @@ notepad.exe file01.txt
 ...the file will open up inside of Notepad...ready for further editing.  
 After editing...you use Notepad File Menu option to Save the changes you've made.  
 
+- Make a directory folder...  
+
+MD folderName
+
+- Delete a directory folder...  
+
+RMDIR folderName  
+
+**NOTE**: If the folder still contains files inside of it...and, isn't therefore an empty folder;   
+then, you will NOT be able to DELete it...; not until when all of those files have been removed.  
+ 
 -----
 
 ## LINKS
