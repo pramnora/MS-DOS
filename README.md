@@ -195,13 +195,39 @@ NOTE(5): MS DOS is NOT 'case senstive'...; so, varName/varNAME/and, VARNAME...do
 
 ## Looping
 
+Loop 1  
+
 To print out literals...
 
->>FOR %%N IN (1,2,3) DO ECHO %%N    
->>...output...  
+>>FOR %%N IN (1,2,3) DO ECHO %%N      
+>>...output...   
 >>1  
 >>2  
 >>3  
+
+Loop 2  
+
+Use \L switch to print a 'count up' loop...  
+The parameters mean: (start,step,end)  
+
+>>FOR \L %%N IN (1,1,5) DO ECHO %%N      
+>>...output...   
+>>1  
+>>2  
+>>3  
+
+Loop 3  
+
+Use \L switch to print a 'countdown' loop...  
+The parameters mean: (start,step,end)  
+
+>>FOR \L %%N IN (5,-1,1) DO ECHO %%N    
+>>...output...  
+>>5   
+>>4  
+>>3  
+>>2  
+>>1    
 
 -----
 
