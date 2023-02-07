@@ -269,7 +269,15 @@ After editing...you use Notepad File Menu option to Save the changes you've made
 
 - Make a directory folder...  
 
-MD folderName
+MD folderName  
+
+- Move into the directory folder...  
+
+CD folderName  
+
+- Move out of a directory folder...  
+
+CD ../  
 
 - Delete a directory folder...  
 
