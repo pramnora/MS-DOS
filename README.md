@@ -238,13 +238,15 @@ however, when writing code inside of files...then, use variable format: %%N.
 
 ## Filing
 
-- View file as being plain text...  
+- View file output on screen as being just plain text...  
 
 In order to list a files contents onto the output screen...; without, actually, 'opening'/or, 'running' it: 
 
 TYPE file01.txt  
 
+- Rename a file...
 
+REN file01.txt file02.txt  
 
 -----
 
