@@ -231,12 +231,20 @@ The parameters mean: (start,step,end)
 >>2  
 >>1    
 
-**NOTE**: When writing code inside of the MS DOS Command line window use variable: %N;  
-however, when writing code inside of files using variable: %%N.  
+**NOTE**: When writing code inside of the MS DOS Command line window use variable format: %N;    
+however, when writing code inside of files...then, use variable format: %%N.  
 
 -----
 
 ## Filing
+
+In order to list a files contents...; without actually opening/or, running it: 
+
+SYNTAX:  
+TYPE filename.fileNameExtension  
+
+EXAMPLE code:  
+TYPE file01.txt  
 
 -----
 
