@@ -240,7 +240,7 @@ however, when writing code inside of files...then, use variable format: %%N.
 
 - View file as being plain text...  
 
-In order to list a files contents...; without actually opening/or, running it: 
+In order to list a files contents onto the output screen...; without, actually, 'opening'/or, 'running' it: 
 
 TYPE file01.txt  
 
