@@ -260,7 +260,12 @@ COPY file01.txt file01b.txt
 
 DEL file01.txt  
 
+- Edit a file...using Windows Notepad word processor application  
 
+notepad.exe file01.txt   
+
+...the file will open up inside of Notepad...ready for further editing.  
+After editing...you use Notepad File Menu option to Save the changes you've made.  
 
 -----
 
