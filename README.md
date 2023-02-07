@@ -238,6 +238,10 @@ however, when writing code inside of files...then, use variable format: %%N.
 
 ## Filing
 
+- First, if you want to see what folders/files are included inside of the current folder directory...  
+
+DIR  
+
 - View file output on screen as being just plain text...  
 
 In order to list a files contents onto the output screen...; without, actually, 'opening'/or, 'running' it: 
@@ -247,6 +251,16 @@ TYPE file01.txt
 - Rename a file...
 
 REN file01.txt file02.txt  
+
+- Copy a file...  
+
+COPY file01.txt file01b.txt  
+
+- Delete a file...  
+
+DEL file01.txt  
+
+
 
 -----
 
