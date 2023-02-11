@@ -78,6 +78,20 @@ Write text to the output screen...
 
 >>C:>ECHO Hello, world!  
 
+Show a list of all environment variables...  
+
+>>C:> SET
+
+Show a single environment variable...  
+
+>>C:> ECHO %COMSPEC%  
+
+Set a user created variable...  
+
+>>C:> SET tempVar=1    
+>>C:> ECHO %tempVar%  
+>>C:> 1  
+
 Write an MS DOS style code comment...
 
 >>C:>REM This is a MS DOS REMark...used to comment your code...  
