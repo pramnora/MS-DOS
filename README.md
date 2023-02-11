@@ -199,7 +199,7 @@ but, once you've closed that windows down; and, open up another MS DOS Command W
 
 NOTE(2): There should be no spaces in between the equal: (=) sign...and VarNAME/varVALUE  
 
-NOTE(3): You don't need to put your text in between quote marks.  
+NOTE(3): You don't need to put your text in between quote marks...unless it contains spaces in between each separate word.    
 
 NOTE(4): It is a really good idea to check if a variable already exists...by echoing out it's name/value, first;   
 before attempting to go create/then, use it; this is because it's possible to 'overwrite' a variableName/variable Value.  
