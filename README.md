@@ -78,21 +78,6 @@ Write text to the output screen...
 
 >>C:>ECHO Hello, world!  
 
-Show a list of all environment variables...  
-
->>C:> SET
-
-Show a single environment variable...  
-
->>C:> ECHO %COMSPEC%  
->>C:\Windows\System32\cmd.exe   
-
-Set a user created variable...  
-
->>C:> SET tempVar=1    
->>C:> ECHO %tempVar%  
->>C:> 1  
-
 Write an MS DOS style code comment...
 
 >>C:>REM This is a MS DOS REMark...used to comment your code...  
@@ -176,7 +161,7 @@ Example code...
 Make sure to store each file together inside of the one same directory folder;    
 then, left double click on [file1.bat] to run.    
 
-## How to read built-in variables
+## Dispaly environment variables
 
 MS DOS comes with a number of built-in variables...; here, I'm listing just a few of these(so there's lots more to go and discover using):       
 
@@ -185,6 +170,21 @@ MS DOS comes with a number of built-in variables...; here, I'm listing just a fe
 
 NOTE: This is how you would display %varNAME% when writing it at the command prompt.  
 In order to display the same name within a MS DOS batch [.bat] program file use, instead: %%varNAME%%  
+
+Show a list of all environment variables...  
+
+>>C:> SET
+
+Show a single environment variable...  
+
+>>C:> ECHO %COMSPEC%  
+>>C:\Windows\System32\cmd.exe   
+
+Set a user created variable...  
+
+>>C:> SET tempVar=1    
+>>C:> ECHO %tempVar%  
+>>C:> 1  
 
 ## How to set your own variables
 
