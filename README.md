@@ -8,11 +8,27 @@ meaning, you have to type in each command.
 
 MS DOS commands are either...  
 
-- typed into the MS DOS Command Prompt window, individually, one command at a time      
+- typed into the MS DOS Command Prompt window, individually, one command at a time...        
+
+>>DIR    
+
+...shows current folder DIRectory listing.  
  
 - stored inside of a plain text file using file name extension: [.bat];   
   which is also referred to being called a Windows 'batch' program file...;    
   as it stores a list -or, batch- of MS DOS commands which you can run/execute.  
+
+Open Windows Notepad text editor/(or, any text editor program you prefer);    
+and, type in the following text...  
+
+>>@ECHO OFF    
+>>DIR  
+>>PAUSE  
+
+...using your editor File menu to Save the file as being called:   
+showdir.bat  
+...next, go and find the file you just saved; and, left double click on it to RUN the code.  
+A windows DOS black output screen should appear; which shows the current folder DIRectory listing.  
 
 ## How to create a batch [.bat] file...  
 
