@@ -15,7 +15,7 @@ MS DOS commands are either...
 ...shows current folder DIRectory listing.  
  
 - stored inside of a plain text file using file name extension: [.bat];   
-  which is also referred to being called a Windows 'batch' program file...;    
+  which is also referred to as being called a Windows 'batch' program file...;    
   as it stores a list -or, batch- of MS DOS commands which you can run/execute.  
 
 Open Windows Notepad text editor/(or, any text editor program you prefer);    
