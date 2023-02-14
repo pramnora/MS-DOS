@@ -74,6 +74,13 @@ List the current directory folder/files...
 ...and, this will explain exactly what the command does/or, is used for...;   
 and, also, show you what are the command's other options/(if any).   
 
+Changing the prompt text...  
+
+>>C:>prompt=thisismynewprompt:  
+>>thisismynewprompt:  
+>>thisismynewprompt:prompt=$p$g  
+>>C:>  
+
 Write text to the output screen...  
 
 >>C:>ECHO Hello, world!  
